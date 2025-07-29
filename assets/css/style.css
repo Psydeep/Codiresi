@@ -595,7 +595,7 @@ a.top-social-icon-left:after {
     margin-left: 30px;
     display: inline-block;
     transform: revert;
-    transform: rotate(-45deg);
+    transform: rotate(180deg);
 }
 
 
@@ -865,7 +865,7 @@ p.section-description.style-left {
     background: #ffff;
     position: relative;
     z-index: 1;
-    padding: 145px 0 120px;
+    padding: 210px 0 120px;
     overflow: hidden;
 }
 .about_area.style-three:before {
@@ -5040,7 +5040,7 @@ ul.accordion.style1 li a.active span:before {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 120px 0 0px;
+    padding: 120px 0 90px;
 }
 
 /*single-call-do-box*/
@@ -6380,3 +6380,13 @@ input.comment-box::placeholder {
     -moz-animation: Ripple 1.6s ease-in-out infinite;
 }
  */
+.slider-shapes {
+    position: absolute;
+    top: -18%;
+    left: 9%;
+}
+.slider-shapes2 {
+    position: absolute;
+    top: -149px;
+    left: 5%;
+}
